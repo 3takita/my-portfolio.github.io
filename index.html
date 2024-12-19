@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navigation Menu -->
+<nav>
+    <a href="#page1" onclick="showPage('page1')">Home</a>|
+    <a href="#page2" onclick="showPage('page2')">About</a>|
+    <a href="#page3" onclick="showPage('page3')">Projects</a>|
+    <a href="#page4" onclick="showPage('page4')">Skills</a>|
+    <a href="#page5" onclick="showPage('page5')">Contact</a>
+</nav>
+
+<!-- HOME : Page 1 -->
+<section id="page1">
+   <div id="side-container">
+		<div id="text-box">
+			<h1>Stephen</h1>
+			<p style='margin-top:-20px; font-famil:Poppins; font-size:35px;'>Software Engineer</p>
+		</div>
+	</div>
+</section>
+
+<!-- ABOUT : Page 2 -->
+<section id="page2">
+    <h1>About</h1>
+    <h3>Education</h3>
+			<div class="box2" id="education">
+				<div class="box2-1">
+					<img id="computer-img" src="images/computer-icon.jpeg" alt="Computer Icon">
+					<div class="box21-text">
+						<h5>B.S. in Computer Science</h5> 
+						<p>California State University</p>
+					</div>
+				</div> 
+				<div class="box2-1">
+					<div class="js-icon"><p>JS</p></div>
+					<h5>Front-end Development Track</h5>
+					<p>freecodecamp.com</p>
+				</div>
+				<div class="box2-1">
+					<img src="images/backendDev-icon.jpeg" alt="backend" id="backend-icon">
+					<h5>Back-end Development Track</h5>
+					<p>freecodecamp.com</p>
+				</div>
+				<div class="box2-1">
+					<img src="images/SAC-icon.jpeg" alt='SAC' id='SAC-icon'>
+					<h5>A.S. Computer Science</h5>
+					<p>Santa Ana College</p>
+				</div> 
+			</div>
+			<!--<hr class="hor-line">-->
+			
+			<h3>Things I enjoy</h3>
+			<div class="box2" id="things-i-enjoy">
+				<div class="box2-2">
+					<img src="images/family-icon.jpeg" alt="family" id="family-icon">
+					<h5>Time with family</h5>
+				</div>
+				<div class="box2-2" id="swim-container">
+					<img src="images/swimming-icon.jpeg" alt="swimming" id="swimming-icon">
+					<h5>Swimming</h5>
+				</div>
+				<div class="box2-2">
+					<img src="images/chess-icon.jpeg" alt="chess" id="chess-icon">
+					<h5>Chess</h5>
+				</div>
+				<div class="box2-2">
+					<img src="images/coding-icon.jpeg" id="coding-icon" alt="coding">
+					<h5>Coding</h5>
+				</div>
+				<div class="box2-2">
+					<img src="images/travel-icon.jpeg" alt="travel" id="travel-icon">
+					<h5>Travel</h5>
+				</div>
+			</div>
+			<!--<hr class="hor-line">-->
+			
+			<h3>Hobbies</h3>
+			<div class="box2" id="hobbies">
+				<div class="box2-3">
+					<img src="images/drawing-icon.jpeg" alt="drawing" id="drawing-icon">
+					<h5>Drawing</h5>
+				</div>
+				<div class="box2-3">
+					<img src="images/painting-icon.jpeg" alt="painting" id="painting-icon">
+					<h5>Painting</h5>
+				</div>
+				<div class="box2-3">
+					<img src="images/poetry-icon.jpeg" alt="poetry" id="poetry-icon">
+					<h5>Poetry Writing</h5>
+				</div> 
+			</div>
+			<!--<hr class="hor-line"> -->
+		</div> 
+</section>
+
+<!-- PROJECTS : Page 3 -->
+<section id="page3">
+    <h1>Projects</h1>
+	<h2>Drawings</h2>
+	<hr class='x-line'>
+			<div class="project-container">
+				<div class="box" id="box-1">
+					<img src='images/drawing3.jpeg' alt='man & woman drawing' id='drawing3'>
+					<!--<h1>African Couple</h1>-->
+				</div>
+				<div class="box" id="box-2">
+					<img src="images/drawing1.jpeg" alt="man drawing" id="drawing1">
+					<!-- <h1>African Man</h1> -->
+				</div>
+				<div class="box" id="box-3">
+					<img src='images/drawing2.jpeg' alt='woman drawing' id='drawing2'>
+					<!--<h1>African Woman</h1>-->
+				</div>
+				<div class="box" id="box-4">
+					<img src='images/drawing4.jpeg' alt='2nd African Couple' id='drawing4'>
+					<!--<h1>African Couple 2</h1>-->
+				</div>
+			</div>
+			
+			<h2 style='margin-top:310px;'>Poetry</h2>
+		   <hr class='x-line'>
+			<div class="poetry-container">
+				<div class="poetry-box" id="poem-1">
+					<br><p1><b style='font-size:35px; text-decoration:underline;'>Comes and Goes</b></p1>
+					<br><br><br>
+					<p1>The cheers and woes<br><br>Of friends and foes<br><br>Are highs and lows<br><br>That comes and goes...</p1>
+				</div>
+				<div class="poetry-box" id="poem-2">
+					<br><b><p1 style='font-size:35px;' style='text-decoration:underline;'>The Place</p1></b><br><br><br>
+					<p1>There is a place<br><br>That is not of name<br><br> 
+Where life and death<br><br>
+Are one and the same<br><br>
+It is here away from there...</p1>
+				</div>
+				<div class="poetry-box" id="poem-3">
+					<br><b><p1 style='text-decoration:underline;'>Perishable Design</p1></b><br><br><br>
+					<p1>Woke I in a self<br><br>
+That is not mine<br><br>In a flesh so good<br><br>The earth must dine<br><br>Life is 99 ways<br><br>Of what is 9<br><br>So why defend this<br><br>Perishable design<br><br>Things I see are<br><br>Things I should not<br><br>Things so beauteous <br><br>They're things of rot<br><br>So as T's get crossed<br><br>
+And I's get dots<br><br>I draw my sword<br><br>Where light is fought<br><br>For life after all<br><br>With death is fraught<br><br>And yonder beckons<br><br>Another soul that's bought</p1>
+				</div>
+				<div class="poetry-box" id="poem-4">
+					<p1>Poetry 4</p1>
+				</div>
+			</div>
+</section>
+
+<!-- SKILLS : Page 4 -->
+<section id="page4">
+	<div class='skills-container'>
+   	<h1>My Skills</h1>
+		<!--<div class='block-title'>-->
+		<h2>Coding</h2>
+		<hr class='x-line'>
+		<!--</div> -->
+   	<div class='bar-case'>
+			<h2>C++</h2>
+			<div class='bar' id='bar1' style='width:320px;'></div>
+			<p>80%</p>
+		</div>
+		<div class='bar-case'>
+			<h2>HTML</h2>
+			<div class='bar' id='bar2' style='width:300px;'></div>
+			<p>75%</p>
+		</div>
+		<div class='bar-case'>
+			<h2>CSS</h2>
+			<div class='bar' id='bar3' style='width:292px;'></div>
+			<p>73%</p>
+		</div>
+		<div class='bar-case'>
+			<h2>JavaScript</h2>
+			<div class='bar' id='bar4' style='width:300px;'></div>
+			<p>75%</p>
+		</div>
+		
+		<h2>Creativity</h2>
+		<hr class='x-line' style='width:110px;'>
+		<div class='bar-case'>
+			<h2>Poetry</h2>
+			<div class='bar' id='bar5' style='width:380px;'></div>
+			<p>95%</p>
+		</div>
+		<div class='bar-case'>
+			<h2>Drawing</h2>
+			<div class='bar' id='bar6' style='width:400px;'></div>
+			<p>100%</p>
+		</div>
+	</div>
+</section>
+
+<!-- CONTACT : Page 5 -->
+<section id="page5">
+	<div class='contact-box'>
+   	<h1>Get in touch</h1>
+		<form action='submit' id='contact-form'>
+			<!--<div id='form-box'> -->
+				<label><b>Name</b></label>
+				<input type='text' placeholder='Enter name...' class='name' style='font-size:1rem;'>
+				<br>
+				<label><b>Email</b></label>
+				<input style='font-size:1rem;' type='text' placeholder='Enter email...' class='email'>
+				<br>
+				<label style='margin-top:40px; margin-bottom:48px;'><b>Message</b></label>
+				<textarea placeholder='Enter message...' class='message'></textarea><br>
+				<button type='submit'>Submit</button>
+			<!--</div> -->
+		</form>
+	<div>
+</section>
+
+<!-- JavaScript to Handle Active Page -->
+<script src='script.js'></script>
+
+</body>
+
+</html>
